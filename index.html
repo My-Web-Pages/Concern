@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My HTML Page</title>
+    <title>PDF Viewer</title>
+    <style>
+        /* Make sure the PDF takes up the full page */
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+        embed {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My HTML Page!</h1>
-    <p>This is a simple HTML page hosted on GitHub Pages.</p>
+    <!-- Replace the URL with the link to your PDF file in the repository -->
+    <embed src="https://My-Web-Pages.github.io/Concern/Concern-Template.pdf" type="application/pdf">
 </body>
 </html>
